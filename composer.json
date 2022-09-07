@@ -1,0 +1,31 @@
+{
+    "name": "raul3k/jdatatable",
+    "description": "Laravel Nova Datatable for Nova 3.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "datatable",
+        "searchable"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raul3k\\Jdatatable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Raul3k\\Jdatatable\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
